@@ -18,12 +18,13 @@ def calculer_salaire(grade, htravail):
         salaire = (th * htravail) + primes
         return salaire
     else:
-        return "Grade inconnu"
+        return "Grade inconnu x-("
 
 grade = input("Entrez le grade de l'employé (A, B, C, D, E) : ")
 htravail = int(input("Entrez le nombre d'heures travaillées : "))
 
 salaire = calculer_salaire(grade, htravail)
+
 if isinstance(salaire, str):
     print(salaire)
 else:

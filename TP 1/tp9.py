@@ -1,4 +1,4 @@
-nombre_articles = 2
+nombre_articles = 3
 
 total_facture = 0
 

@@ -11,11 +11,11 @@ somme_notes = sum([notes[i] * coefficients[i] for i in range(4)])
 somme_coefficients = sum(coefficients)
 moyenne = somme_notes / somme_coefficients
 
-print(f"Moyenne de ces 4 notes : {moyenne:.2f}")
+print(f"Moyenne Geenrale : {moyenne:.2f}")
 
 if moyenne >= 10:
-    print("Semestre validé.")
+    print("Semestre validé :-)")
 elif moyenne >= 7:
-    print("Rattrapage.")
+    print("Rattrapage :-| ")
 else:
-    print("Semestre non validé.")
+    print("Semestre non validé :-(")
