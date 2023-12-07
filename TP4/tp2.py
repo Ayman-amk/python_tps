@@ -24,7 +24,7 @@ class Maison(Batiment):
         self.__nb_pieces = nb_pieces
 
     def __str__(self):
-        return f"Maison à l'adresse : {super().get_adresse()}, Nombre de pièces : {self.__nb_pieces}"
+        return f"Maison à l'adresse : {super().get_adresse()}, Nombre de pieces : {self.__nb_pieces}"
 
 
 class Immeuble(Batiment):
