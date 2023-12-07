@@ -5,4 +5,5 @@ def somme(m, n):
         return m + somme(m + 1, n)
 
 resultat = somme(5, 8)
+
 print(resultat)

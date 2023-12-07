@@ -55,7 +55,7 @@ def vitesse(distance, temps):
     distance_en_metres = conversion_distance(*distance)
     temps_en_secondes = conversion_temps(*temps)
     if temps_en_secondes == 0:
-        return "La vitesse est Undifined (div par zéro)"
+        return "La vitesse est Undifined (div par zero)"
     vitesse_mps = distance_en_metres / temps_en_secondes
     return vitesse_mps
 
